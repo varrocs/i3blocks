@@ -1,0 +1,8 @@
+
+
+case $BLOCK_BUTTON in
+  4) light -A 10 ;; # scroll up, increase ;;
+  5) light -U 10 ;; # scroll down decrease ;;
+esac
+
+light
